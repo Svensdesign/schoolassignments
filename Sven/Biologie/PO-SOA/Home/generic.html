@@ -1,18 +1,11 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
+<html><head>
 		<title>Generic - Stellar by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/main.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+	<style type="text/css">.in, .actions, .wrapper.style1.fullscreen.fade-up.inactive, .text, .cc_cursor, body, .ogdlpmhglpejoiomcodnpjnfgcpmgale_default, body, html, input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input::-webkit-contacts-auto-fill-button, input:read-only {cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAD0klEQVRYR8WWTUgbQRTH3yYaYiUxkSgignjRi4LgRXqS+hmoiER6kdJLS28tFDwWLKiIPRQ8iLQQsBQRFlEKCiJ+Gz8T/KRRNMEPdLMaglZhlWq2vMEZ1iSKG40OhExmNvN+83//eTtcYmKifHl5CWdnZxw8QeMsFoscDAYhEAg8DUBKSopMN26xWL653e5PjykEZzAYZI7joK2tDdxut9tutzsEQXj3WBAEAD0QCASgvb0dGhsb4fDw8NHSwQD8fj/Isgzoh9TUVNBqtXB6ehpzEM5oNMoXFxdwcHBAguMnPT2dwEiSpAEA5pFYpIUAYAoEQWAAFCQ3NxeMRuOXzc3N+lgExzW5pKQkosDe3t41AITq7+8Hl8u1MTAwsOLxeGyxgGAAu7u7BAADUwXwu7W1FTo6OjBFMfEDA9ja2gpTgJoSofLz80Gn0z14wWIAHo+HnYJQFVCJgoICiI+Ph+LiYgPP86cPlQ4GsLGxEWZCBFGqgCAlJSV4TN+vrKx8fwgIAoCB1tbWSP4xYCQFMDjOjY6OwsjIyJ+lpSWv1+utvC8EZzKZCMDq6mqYAkozKvtYLR0OB4iieG9jMoDl5WV2CpSy0z4FwN90rLy8HOLi4sDv90cNwgAWFhbCFLgtOM5ZrVYCUFpampydnX1cX18fVJsSBuByuW5MgXLXtI/f2FAZm80GGRkZb5xO58+oAHCRubk5Zj7lzm8LjsFwfn5+HsbGxlYXFxe3vV7vSzUQRAEEmJ6eJrsJDU7HQnceGqS5uRlmZ2fB5/Op8gNnNpvJKUBXK51O5aVAVHLMe6SGRQpf4VEDTExMMAC625OTE1L90Gi0VVdXky4Fuhr/p9Vq0RTy/v6+XlUKUAHcORYYpdzYr6qqgtraWqipqbkGIMvyR1EUW9UEuulZLjk5maRgeHiY5b+urg40Gg3s7Ox8zsnJsUqS9LypqYmsMTMzg+lam5ycFHw+34v7QjCAoaEhpkBZWRl58+HdMC0t7TcAVPb09LBYWAmdTqfqfEeCZQCDg4Ngt9uhq6sLjo6OmJOzsrJ+SJL0VgnQ0NCAF5WHBejt7YXu7m6Z53lZFEUtpc3MzPx6fn7+obOzU4fXd71eDy0tLTA1NQVms9mSl5d3wfP8cbSpQIlJScPFdTrdr+3t7deRFkOv4HhfXx+bxiOZkJCA90lVZ1+5PldYWPgqGAySxfV6/eb4+PhCJAA8LQgZCoCKqD371wDuKh0C4LN4UaWtoqKCKPAoAFdBNSaT6ZICKM16142EPqcqd0VFRXHr6+t/0TJY9QRBeBZtYPq//x+6TU7M93/1AAAAAElFTkSuQmCC") 0 0 , auto !important; }.cc_pointer,[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration, .paper-button, .ytp-progress-bar-container, input[type=submit], :link, :visited, a > *, img, button, ::-webkit-scrollbar-button, .ogdlpmhglpejoiomcodnpjnfgcpmgale_pointer, ::-webkit-file-upload-button, button, .ytp-volume-panel, #myogdlpmhglpejoiomcodnpjnfgcpmgale .icon { cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADuUlEQVRYR82Xy0sbYRDAJxI1JoGYVSIYfAcRfKAoZn1AW/+BNlKiNsVe7KWXIgrioWBAJYdqfFY92R4s1CK04EXxsSpSKV4MNdpLDkZ3jQQ1UREiccusuKzSLJtVar9LFnZm5zfPb6IAkZOWlvbp6OioEUVIkqyYm5tbE5OX804RSSkzM9Nhs9mepqen5ykUCpiamhp3u917Xq/3nRxDkXQiAhAEwQ4PD0N9fT2nW11dDZubm3B8fBxRRw7Y/w0wNDQEDQ0NnGNVVVXgdrv/bQSEAJWVlbC1tfVwABUVFbC9vf1wACRJgsfjAaVS6Q+Hw/jro2m6QE7hCXUiFmFSUhI7ODjI18A1QFxcHMTExIBer6dramrK8GOhUIiNj48POJ3O82iBogLY2NiA8/MrG3t7e1BSUsI945y4vLwEv98fdYuKtqGwCDECQgCv1wtlZWXg8/l4p9VqNSQkJHAwUueFZACz2Qwul4uPwM7ODgdwcHDAA2i1WjCZTJCRkQEMwzwiCOLXzMzMoVhaZANgBEpLS28AaDQa6OzshObmZsDnurq6Z+Pj499FAVQqFatSqYBlWU4uNjZ2xO/3v8FRLEzB7Qj8DQAjYLfboaWlhfuW1WqF6elpjFpERxU6nY41GAzQ2MhdekDT9M/Z2dkfgUDg7cDAAN8Fo6OjsL+/Dx0dHZxcMBgEvCva29tvpEAIUFtbC/Pz8ygrDpCXlwdra1c3LXrd1tYG6E1fXx8PIKW9sEW7u7uhtbWVE5cMgIWzvr5+w4ZOpwP0+voukAJwW0YSAEmSdWq1Wh8Oh0coiuK/gbnDPjcajXJs8xFYWFiAQCAQOQUoaTabn3g8ngVhS8m2KlDECCwuLorOhBtkWq2WbWpqAqfTeR/2uRqICkCj0XAAWHz3cSwWC2AKRLtAaMhgMJxbrVal3W5XEgRxZ4aoAdCiyWRqYxjGcXp6+jAAubm5LTRNvz85ObkTAM6E8vLyl6urqxOio/j2y/z8/Be7u7uvJycnHxcUFEBqaqosEL1eD0VFRbbl5eXPUQFcCycnJ7NYjDabTTZAcXFxPUVRX2QB4EbU398vGyAxMREHmYWiqG+yAAiCsFssllcpKSkZXV1dkqOwtLQEKysrMDY2NkAQxAeXy/VbFgAq5eTkfGMY5unZ2ZlkAITt7e2Fw8NDSeuZqFBWVtZXn8/3PBoAh8MBPT09kvdDUYDs7OyJYDD4orCwkI8ALqBih2EYXMfuvhOiEaPR+PHi4uLq32kUJxQKIYBKisofJ+rRMAolaIIAAAAASUVORK5CYII=") 13 0, auto !important; } </style></head>
+	<body class="">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -28,7 +21,7 @@
 
 						<!-- Content -->
 							<section id="content" class="main">
-								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+								<video src="Sven\Biologie\PO-SOA\Home" width="”640px”" height="”380px”" autoplay=""></video>
 								<h2>Magna feugiat lorem</h2>
 								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
 								<p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
@@ -51,7 +44,7 @@
 							<h2>Etiam feugiat</h2>
 							<dl class="alt">
 								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dd>1234 Somewhere Road • Nashville, TN 00000 • USA</dd>
 								<dt>Phone</dt>
 								<dd>(000) 000-0000 x 0000</dd>
 								<dt>Email</dt>
@@ -65,7 +58,7 @@
 								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
 							</ul>
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">© Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
@@ -79,5 +72,5 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-	</body>
-</html>
+	
+</body></html>
